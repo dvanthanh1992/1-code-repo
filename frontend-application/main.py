@@ -12,7 +12,7 @@ def home():
     hostname = socket.gethostname()
     pod_ip = socket.gethostbyname(hostname)
     
-    image_version = "1.0.0"
+    image_version = "2.0.0"
 
     return f"""
     <html>
@@ -34,7 +34,7 @@ def home():
         <h2>Environment            : <b>{environment}</b></h2>
         <h2>Image Version          : <b>{image_version}</b></h2>
         <p><b>Pod Name             : </b>{hostname}</p>
-        <p><b>Pod IP               : </b>{pod_ip}</p> 
+        <p><b>Pod IP               : </b>{pod_ip}</p>
     </body>
     </html>
     """
