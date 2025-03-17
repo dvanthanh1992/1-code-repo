@@ -34,7 +34,7 @@ def home():
         <h2>Environment            : <b>{environment}</b></h2>
         <h2>Image Version          : <b>{image_version}</b></h2>
         <p><b>Pod Name             : </b>{hostname}</p>
-        <p><b>Pod IP               : </b>{pod_ip}</p>
+        <p><b>Pod IP               : </b>{pod_ip}</p> 
     </body>
     </html>
     """
